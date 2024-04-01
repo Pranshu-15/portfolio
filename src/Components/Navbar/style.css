@@ -1,0 +1,27 @@
+.navbar{
+    width: 96%;
+    background-color: #1e1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid ;
+  border-radius: 10px;
+  margin-top: 24px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 15px;
+    font-size: 10px;
+
+}
+.lower-line{
+    color: rgb(89, 89, 236);
+}
+.nav-left{
+    font-size: 10px;
+  margin: -2px;
+  padding: 0px;
+}

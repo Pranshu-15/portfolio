@@ -1,0 +1,73 @@
+.main-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+h1 {
+  margin: 50px;
+  font-size: 40px;
+}
+.text-animate {
+  font-weight: bold;
+  color: white;
+}
+.cursor-animate {
+  color: white;
+}
+.upper-line {
+  margin-bottom: -40px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+  /* Set a specific height */
+  height: 244px;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-me-section > h1 {
+  letter-spacing: 0.6em;
+}
+.about-me-section > p {
+  font-size: 9px;
+  font-weight: 100;
+  font-style: italic;
+}
+.about-me-description {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.046em;
+  font-weight: 100;
+  text-decoration: underline;
+}
+.my-btn {
+    margin-top: 60px !important;
+  text-transform: lowercase !important;
+  font-family: inherit !important;
+}
+.projects-section{
+    margin-top: 100px;
+}
