@@ -1,0 +1,101 @@
+[
+    {
+        "id": "101",
+        "title": "Spotify Clone",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/SpotifyClone.png?alt=media&token=8d44be7c-786b-471f-bf2e-92fcaffa3782",
+        "description": "Project mimicking Spotify's UI, showcasing song lists, search bar, and sleek design elements.",
+        "skills": ["HTML" , "CSS" ],
+        "demo": "https://pranshu-15.github.io/spotify-clone/",
+        "source": "https://github.com/Pranshu-15/spotify-clone/settings/pages"
+      },
+    {
+        "id": "102",
+        "title": "BlinkIt Clone",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/BlinkItClone.png?alt=media&token=d8931279-0b29-4e2d-8d92-08ec1cdaf9a8",
+        "description": "Project emulating Blinkit app's interface creatively with innovative design elements and intuitive navigation.",
+        "skills": ["HTML" , "CSS"],
+        "demo": "https://pranshu-15.github.io/blinkit-clone/",
+        "source": "https://github.com/Pranshu-15/blinkit-clone/settings/pages"
+      },
+    {
+        "id": "103",
+        "title": "Food Delivery App",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/FoodDeliveyApp.png?alt=media&token=561343f1-91e3-4a17-af55-c13973076581",
+        "description": "Food delivery app prototype featuring API integration for restaurant data and filter functionality for seamless browsing, enhancing user experience.",
+        "skills": ["HTML" , "CSS" , "Javascript"],
+        "demo": "https://pranshu-15.github.io/FrontEnd-2-Module-Test/#home",
+        "source": "https://github.com/Pranshu-15/FrontEnd-2-Module-Test"
+      },
+    {
+        "id": "104",
+        "title": "Excel Clone",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/googleSheetClone.png?alt=media&token=eacbfda6-24b6-4308-ab1d-4c19cea67db2",
+        "description": "Simplified spreadsheet tool mirroring core Excel functions for basic data organization, entry, and simple calculations, enhancing productivity in a user-friendly interface.",
+        "skills": ["HTML" , "CSS" , "Javascript"],
+        "demo": "https://pranshu-15.github.io/FrontEnd-2-Google-Sheet-Clone/",
+        "source": "https://github.com/Pranshu-15/FrontEnd-2-Google-Sheet-Clone/settings/pages"
+      },
+    {
+        "id": "105",
+        "title": "Basic Calculator",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/calculatorJS.png?alt=media&token=c9ead58c-6497-44b8-b263-30c2196d9916",
+        "description": "project featuring essential arithmetic functions, user-friendly interface, and responsive design for seamless calculation on web platforms",
+        "skills": ["HTML" , "CSS" , "Javascript"],
+        "demo": "https://pranshu-15.github.io/Basic-Calculator/",
+        "source": "https://github.com/Pranshu-15/Basic-Calculator/settings/pages"
+      },
+    {
+        "id": "106",
+        "title": "Stone Paper Scissor",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/StonePaperScissors.png?alt=media&token=35102334-0f58-42f6-b9d2-ee3cafc538cc",
+        "description": "Stone, Paper, Scissors Game: Interactive web-based experience crafted with HTML, CSS, and JavaScript, challenging players to strategic duels with intuitive design and dynamic animations for engaging gameplay.",
+        "skills": ["HTML" , "CSS" , "Javascript"],
+        "demo": "https://pranshu-15.github.io/Stone-Paper-Scissor/",
+        "source": "https://github.com/Pranshu-15/Stone-Paper-Scissor/settings/pages"
+      },
+    {
+        "id": "107",
+        "title": "Todo List",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/TodoList.png?alt=media&token=32bed564-8ad6-4ac3-bd4d-f19ad9a9bb65",
+        "description": "Todo List App: HTML/CSS/JS project enabling users to manage tasks efficiently, with dynamic updates, intuitive design, and customizable features fostering productivity and organization in daily routines.",
+        "skills": ["HTML" , "CSS" , "Javascript"],
+        "demo": "https://pranshu-15.github.io/Todo-List/",
+        "source": "https://github.com/Pranshu-15/Todo-List/settings/pages"
+      },
+    {
+        "id": "108",
+        "title": "Calculator",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/reactCalculator.png?alt=media&token=e922c60d-97df-4658-8efa-b81d4518b020",
+        "description": "React Calculator: Basic arithmetic functionalities (+,-,/,*) implemented with React.js, offering a seamless user experience with dynamic updates, intuitive design, and responsive interface for efficient calculations.",
+        "skills": ["React.js"],
+        "demo": "https://startling-bombolone-e6ea1d.netlify.app/",
+        "source": "https://github.com/Pranshu-15/FrontEnd-4-Week-1-Test"
+      },
+    {
+        "id": "109",
+        "title": "Subredit",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/subredit.png?alt=media&token=4a9ebf06-014a-4eb4-8435-52d0f74a3dda",
+        "description": "Web application leveraging React.js to fetch Reddit data via API calls, enabling users to browse subreddit content seamlessly with dynamic updates.",
+        "skills": ["React.js"],
+        "demo": "https://subredit.vercel.app/",
+        "source": "https://github.com/Pranshu-15/subredit"
+      },
+    {
+        "id": "110",
+        "title": "Shopping Cart",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/ShoppingCart.png?alt=media&token=a52da6b2-2f4a-4a65-8c87-09e62f2fd439",
+        "description": "Redux Shopping Cart: React.js project incorporating Redux Toolkit for state management, facilitating seamless shopping experiences with enhanced performance, scalability, and efficient handling of cart functionalities.",
+        "skills": ["React.js"],
+        "demo": "https://f4-module-test-shopping-cart.vercel.app/",
+        "source": "https://github.com/Pranshu-15/f4-module-test-shopping-cart"
+      },
+    {
+        "id": "111",
+        "title": "Podcast Platform",
+        "imageSrc": "https://firebasestorage.googleapis.com/v0/b/practice-f97d0.appspot.com/o/podcastPlatform.png?alt=media&token=f4799642-e840-49c3-a139-bbacafa4def9",
+        "description": "React.js frontend integrated with Google Auth for secure login, Firebase backend for podcast management, providing users a seamless experience to create and play podcasts.",
+        "skills": ["React.js"],
+        "demo": "https://podcast-platform-ecru.vercel.app/",
+        "source": "https://github.com/Pranshu-15/podcastPlatform"
+      }
+]

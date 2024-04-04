@@ -1,13 +1,13 @@
 
 import './App.css';
-import HeroSection from './Components/HeroSection';
+import Body from './Components/Body';
 import Navbar from './Components/Navbar';
 
 const  App = () => {
   return (
    <>
     <Navbar/>
-    <HeroSection/>
+    <Body/>
    </>
   );
 }
