@@ -54,9 +54,9 @@ proficient React.js</p>
 
 <div className='projects-section'>
 <center><h1>&#60;&nbsp; projects &nbsp;&#62;</h1></center>
-{projects.map((project,id)=>{
+{/* {projects.map((project,id)=>{
   return <ProjectCard key={id} project={project} />
-})}
+})} */}
 </div>
 </div>
   )
