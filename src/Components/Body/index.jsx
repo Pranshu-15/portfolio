@@ -2,8 +2,6 @@ import React from 'react'
 import './style.css'
 import {  Typewriter } from 'react-simple-typewriter'
 import { Button } from '@mui/material'
-import projects from '../../Data/projects.json'
-import ProjectCard from '../ProjectCard/ProjectCard'
 
 const Body = () => {
     
@@ -54,9 +52,7 @@ proficient React.js</p>
 
 <div className='projects-section'>
 <center><h1>&#60;&nbsp; projects &nbsp;&#62;</h1></center>
-{/* {projects.map((project,id)=>{
-  return <ProjectCard key={id} project={project} />
-})} */}
+
 </div>
 </div>
   )
