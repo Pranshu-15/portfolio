@@ -1,73 +1,57 @@
-.main-hero-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 70px;
+.home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
 }
-h1 {
-  margin: 50px;
-  font-size: 40px;
-}
-.text-animate {
-  font-weight: bold;
-  color: white;
-}
-.cursor-animate {
-  color: white;
-}
-.upper-line {
-  margin-bottom: -40px;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.parallax {
-  /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-
-  /* Set a specific height */
-  height: 244px;
+.hero-section-image{
+    border: none;
   width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 45vh;
 }
-.about-me-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.first-line{
+    display: flex;
+}
+.heading, .heading-three{
+font-size: 5rem;
+margin: 0;
+color: var(--text);
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: var(--text);
+}
+.heading:hover{
+    color: var(--background);
+    -webkit-text-stroke-color: var(--text);
+    transition: all0.3s;
+}
+.heading-two{
+    font-size: 5rem;
+margin: 0;
+-webkit-text-stroke-width: 3px;
+color: var(--background);
+-webkit-text-stroke-color: var(--text);
+}
+.heading-two:hover{
+    color: var(--text);
+}
+.heading, .heading-two, .heading-three{
+    font-size: 4rem !important;
+}
+.home-content{
+    width: 100vw;
   text-align: center;
 }
-.about-me-section > h1 {
-  letter-spacing: 0.6em;
-}
-.about-me-section > p {
-  font-size: 9px;
-  font-weight: 100;
-  font-style: italic;
-}
-.about-me-description {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 22px;
-  line-height: 1.5;
-  letter-spacing: 0.046em;
-  font-weight: 100;
-  text-decoration: underline;
-}
-.my-btn {
-    margin-top: 60px !important;
-  text-transform: lowercase !important;
-  font-family: inherit !important;
-}
-.projects-section{
-    margin-top: 100px;
+@media screen and (max-width: 720px) {
+    .heading, .heading-two, .heading-three{
+        font-size: 2rem !important;
+    }
+   
+    .heading{
+        margin-left: -60px;
+  margin-bottom: 6px;
+    }
+    .heading-three{
+        font-size: 3.5rem;
+    }
 }

@@ -1,13 +1,12 @@
-
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Body from './Components/Body';
 import Navbar from './Components/Navbar';
 
-const  App = () => {
+const App = () => {
   return (
    <>
     <Navbar/>
-    <Body/>
+    <Outlet/>
    </>
   );
 }

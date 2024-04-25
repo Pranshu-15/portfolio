@@ -1,27 +1,124 @@
-.navbar{
-    width: 96%;
-    background-color: #1e1c1c;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid ;
-  border-radius: 10px;
-  margin-top: 24px;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+nav {
+  height: 14vh;
+  background: var(--background);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-ul{
-    display: flex;
-}
-li{
-    list-style: none;
-    padding: 15px;
-    font-size: 10px;
+.logo{
+    height: 10vh;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 10px;
 
 }
-.lower-line{
-    color: rgb(89, 89, 236);
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 24%;
+    height: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-top: -66px;
 }
-.nav-left{
-    font-size: 10px;
-  margin: -2px;
-  padding: 0px;
+
+.nav-links li a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 28px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.hr-line{
+    width: 97%;
+    height: 1px;
+    background-color: var(--text);
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background: var(--text);
+    margin: 5px;
+  }
+  nav {
+    position: absolute;
+    height: 14vh;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .hamburger.open .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.open .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+.logo{
+    height: 10vh;
+  width: 70%;
+}
+  .nav-links {
+    position: fixed;
+    background: var(--secondary);
+    height: 146vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  .nav-links.open {
+    clip-path: circle(1500px at 90% -10%);
+    -webkit-clip-path: circle(1500px at 90% -10%);
+    pointer-events: all;
+    top: 0;
+    height: 110vh;
+    z-index: 1;
+  }
+  .landing {
+    flex-direction: column;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .nav-links li a {
+    font-size: 25px;
+  }
+  .nav-links.open li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links.open li:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links.open li:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+  .nav-links li {
+    opacity: 1;
+  }
 }
