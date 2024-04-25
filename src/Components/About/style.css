@@ -11,19 +11,20 @@ border-radius: 10px;
 position: absolute;
   left: 196px;
   bottom: 36px;
-  height: 75vh;
+  height: 80vh;
   margin-left: -81px;
+  top: 105px;
 }
 .left-section, .right-section{
     width: 50%;
 }
 .about-heading{
   text-align: center;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 .about-para{
    /* font-size:  clamp(0.625rem, 1.119vw - 0.092rem, 1.25rem); */
-   font-size: 2rem;
+   font-size: 1.5rem;
   margin-left: 60px;
   text-align: justify;
 }
